@@ -44,14 +44,16 @@
 由6个靶点像面坐标和空间坐标以及约束条件：
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/25481822/1685795994244-4af8e1b3-6372-4f22-b76c-49910e50816d.png#averageHue=%23ececec&clientId=uda22b19d-d590-4&from=paste&height=22&id=u9c7f9ea3&originHeight=24&originWidth=150&originalType=binary&ratio=1.0700000524520874&rotation=0&showTitle=false&size=1788&status=done&style=none&taskId=u9bb14979-96ef-4676-a6a0-bafa6adf637&title=&width=140.18690901579814)
 可解得投影矩阵P。
-    投影矩阵计算函数见FunEstimateCamMatrix.m。
+
+    投影矩阵计算函数见FunEstimateCamMatrix.m
+
 已知至少六个点的空间坐标和对应的像面坐标，我们可以求解得到相机的投影矩阵_P_。反过来，如果知道了投影矩阵_P_和若干点空间坐标，那么可以计算它们在像面的投影点坐标，用到的模型是：
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/25481822/1685796270582-30357b88-9377-4af8-9f17-26512f476df3.png#averageHue=%23f2f2f2&clientId=uda22b19d-d590-4&from=paste&height=95&id=u3847f30d&originHeight=116&originWidth=136&originalType=binary&ratio=1.0700000524520874&rotation=0&showTitle=false&size=2784&status=done&style=none&taskId=u2508ab4d-4787-4ba2-abb2-ff9e18135e0&title=&width=111.10279846191406)
 
 反投影点坐标与实际像点坐标之间的差别被称为像面误差，是视觉里面常用的一种度量标准，可以作为相机标定、空间重建、投影矩阵等等计算结果优劣的比较标准。
 
-    反投影函数见FunReproject.m。
+    反投影函数见FunReproject.m
 
 **任务3：对投影矩阵进行分解，得到相机的内参数矩阵、旋转矩阵和平移向量。**
 
@@ -130,7 +132,7 @@
 | **0.000 ** | **20.316 ** | **0.000 ** | **0.624 ** | **0.026 ** | **0.781 ** | **-990.713 ** |
 | **0.000 ** | **0.000 ** | **1.000 ** | **-0.754 ** | **-0.241 ** | **0.611 ** | **2151.464 ** |
 
-    所有测试代码和可视化程序见testMain.m。
+    所有测试代码和可视化程序见testMain.m
 
 
 

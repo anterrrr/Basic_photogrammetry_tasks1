@@ -1,18 +1,18 @@
 clear;clc;close all;
 %% 数据初始化
-bar1 =  load('barCrd2D_Cam1.txt');
-bar2 =  load('barCrd2D_Cam2.txt');
-bar3D = load('barCrd3D.txt');
+bar1 =  load('./data/barCrd2D_Cam1.txt');
+bar2 =  load('./data/barCrd2D_Cam2.txt');
+bar3D = load('./data/barCrd3D.txt');
 
-code1 =  load('codeCrd2D_Cam1.txt');
-code2 =  load('codeCrd2D_Cam2.txt');
-code3D =  load('codeCrd3D.txt');
+code1 =  load('./data/codeCrd2D_Cam1.txt');
+code2 =  load('./data/codeCrd2D_Cam2.txt');
+code3D =  load('./data/codeCrd3D.txt');
 
-tar1 = load('tarCrd2D_Cam1.txt');
-tar2 = load('tarCrd2D_Cam2.txt');
-tar3D = load('tarCrd3D.txt');
+tar1 = load('./data/tarCrd2D_Cam1.txt');
+tar2 = load('./data/tarCrd2D_Cam2.txt');
+tar3D = load('./data/tarCrd3D.txt');
 
-inParam = load('inParams.txt');
+inParam = load('./data/inParams.txt');
 xp = inParam(1);yp = inParam(2);f = inParam(3);
 
 

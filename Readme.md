@@ -1,4 +1,4 @@
-**Basic tasks of photogrammetry Ⅰ**
+**Basic photogrammetry tasksⅠ**
 
 注：本次任务中使用的数据来自某气象雷达天线的摄影测量实验，所有数据均在文件夹data中。
 

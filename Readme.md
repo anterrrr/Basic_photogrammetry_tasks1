@@ -1,10 +1,10 @@
 **Basic photogrammetry tasksⅠ**
 
-注：本次任务中使用的数据来自某气象雷达天线的摄影测量实验，所有数据均在文件夹data中。
+注：本次任务中所使用的数据均为对某气象雷达天线的实测数据，所有数据均在文件夹data中。
 
 **任务1：在已知畸变模型的情况下对像面点进行畸变矫正。**
 
-相机投影矩阵是针孔成像模型的数学描述，是线性的成像模型，其中仅仅包含了焦距、主点、旋转矩阵、平移向量。畸变是系统的非线性成像缺陷模型，它使得实际的成像坐标偏离了理想位置（针孔模型成像位置），畸变对于成像点位置的影响如下图1所示。
+相机投影矩阵是针孔成像模型的数学描述，是线性的成像模型，其中仅仅包含了焦距、主点、旋转矩阵、平移向量。畸变是系统的非线性成像缺陷模型，它使得实际的成像坐标偏离了理想位置（针孔模型成像位置），畸变对于成像点位置的影响如下图1所示，从图中可以看出像面边缘的畸变量远大于像面中心的畸变量。
 
 ![image.png](https://cdn.nlark.com/yuque/0/2023/png/25481822/1685795056042-fb89525b-6b4b-4e66-9972-e7dd11ccdd3a.png#averageHue=%23fcfcf4&clientId=uda22b19d-d590-4&from=paste&height=272&id=udffa9399&originHeight=342&originWidth=625&originalType=binary&ratio=1.0700000524520874&rotation=0&showTitle=false&size=216122&status=done&style=none&taskId=uf6abddbb-29ef-431c-a7b7-dd7e695191a&title=&width=497.102783203125)
 
